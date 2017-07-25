@@ -45,3 +45,238 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-25 11:03:37 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-25 11:03:37 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:30:03 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 13ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:6:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:31:20 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:6:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:31:55 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:31:56 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:31:56 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:31:56 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:24 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 12ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:25 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:26 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:26 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:26 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:26 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:26 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:27 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:27 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:33:27 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:38:34 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:39:05 +0800
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template application/hello with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+  app/controllers/application_controller.rb:7:in `hello'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-25 14:39:35 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
