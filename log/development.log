@@ -280,3 +280,230 @@ Started GET "/" for 127.0.0.1 at 2017-07-25 14:39:35 +0800
 Processing by ApplicationController#hello as HTML
   Rendered text template (0.0ms)
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 35ms (Views: 25.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-25 14:48:20 +0800
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-07-25 14:49:23 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (23.7ms)
+  Rendered users/new.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-25 14:49:33 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qbzbh1ijFxrT7XT6bKlF2gAQNKac3mwfHjGlLkOe/5o=", "user"=>{"name"=>"zw", "email"=>"zw@qq.com"}, "commit"=>"Create User"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 25 Jul 2017 06:49:33 UTC +00:00], ["email", "zw@qq.com"], ["name", "zw"], ["updated_at", Tue, 25 Jul 2017 06:49:33 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/users/1
+Completed 302 Found in 8ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-07-25 14:49:33 +0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 6.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-25 14:49:33 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-25 14:49:33 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-25 14:49:33 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-25 14:49:35 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMicroposts (20170725065129)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "microposts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170725065129"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1[0m
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-25 14:54:10 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 320ms (Views: 309.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:11 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-25 14:54:11 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:11 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:11 +0800
+
+
+Started GET "/microposts" for 127.0.0.1 at 2017-07-25 14:54:28 +0800
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.2ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:28 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-25 14:54:28 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:28 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:28 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:28 +0800
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2017-07-25 14:54:32 +0800
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (24.3ms)
+  Rendered microposts/new.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2017-07-25 14:54:50 +0800
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qbzbh1ijFxrT7XT6bKlF2gAQNKac3mwfHjGlLkOe/5o=", "micropost"=>{"content"=>"first content", "user_id"=>"0"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)[0m  [["content", "first content"], ["created_at", Tue, 25 Jul 2017 06:54:50 UTC +00:00], ["updated_at", Tue, 25 Jul 2017 06:54:50 UTC +00:00], ["user_id", 0]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/microposts/1
+Completed 302 Found in 8ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2017-07-25 14:54:50 +0800
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered microposts/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:50 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:50 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:50 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-25 14:54:50 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-25 14:54:50 +0800
+
+
+Started GET "/microposts" for 127.0.0.1 at 2017-07-25 14:54:52 +0800
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT "microposts".* FROM "microposts"
+  Rendered microposts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mMicropost Load (1.8ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 1]]
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2017-07-25 14:56:34 +0800
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered microposts/_form.html.erb (2.4ms)
+  Rendered microposts/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2017-07-25 14:56:37 +0800
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qbzbh1ijFxrT7XT6bKlF2gAQNKac3mwfHjGlLkOe/5o=", "micropost"=>{"content"=>"first content", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "microposts" SET "user_id" = ?, "updated_at" = ? WHERE "microposts"."id" = 1  [["user_id", 1], ["updated_at", Tue, 25 Jul 2017 06:56:37 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/microposts/1
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2017-07-25 14:56:37 +0800
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered microposts/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-25 14:56:37 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-25 14:56:37 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-25 14:56:37 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-25 14:56:37 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-25 14:56:37 +0800
+
+
+Started GET "/microposts" for 127.0.0.1 at 2017-07-25 14:56:38 +0800
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 1]]
