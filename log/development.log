@@ -3125,6 +3125,7 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:08:57 +0800
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:08:57 +0800
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2017-07-26 14:11:09 +0800
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by StaticPagesController#home as HTML
@@ -3503,3 +3504,3200 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:14:17 +0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:14:17 +0800
+=======
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 55ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2017-07-26 14:31:08 +0800
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.4ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (65.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:33:46 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (36.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:34:32 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:34:33 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:34:33 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:22 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:22 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:23 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:23 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:24 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:24 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:24 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264926284260'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:35 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 785ms (Views: 785.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2017-07-26 14:37:36 +0800
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (57.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:37 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2017-07-26 14:37:38 +0800
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.1ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 14:37:41 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (51.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.3ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 14:38:16 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (47.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (47.5ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 14:38:33 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (59.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 14:38:34 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (60.6ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 14:38:35 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:38:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:39:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 14:39:36 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (50.0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 14:40:51 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:43:20 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:44:09 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/images
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/jquery-rails-3.1.4/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/images
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/javascripts
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/bootstrap-sass-2.3.2.0/vendor/assets/stylesheets
+  /Users/chengfei/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chengfei/Desktop/ZWWorkSapce/Ruby/vendor/assets/stylesheets
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <!--[if lt IE 9]>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___358302795446083889_70264977641860'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 352ms (Views: 351.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:15 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 365ms (Views: 365.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 14:44:58 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 14:51:17 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 326ms
+
+ActionView::Template::Error (Missing partial layouts/shim with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/views"
+):
+     5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+     6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+     7:   <%= csrf_meta_tags %>
+     8:   <%= render 'layouts/shim' %>
+     9:   <!--[if lt IE 9]>
+    10:     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    11:     </script>
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___358302795446083889_70264977940760'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:05:06 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 253ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___48783566603070743_70140570939040'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:06:27 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 167ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___48783566603070743_70140570939040'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:06:28 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 171ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___48783566603070743_70140570939040'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:06:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 169ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___48783566603070743_70140570939040'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:06:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 158ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___48783566603070743_70140570939040'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (37.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:06:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 198ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___48783566603070743_70140570939040'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:09:15 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 243ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:09:59 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Invalid CSS after "...y-medium-light ": expected ":", was "= #eaeaea;"
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:4)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:4
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:10:10 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 153ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:10:11 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 163ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:10:28 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Invalid CSS after "body ": expected selector or at-rule, was "{"
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:8)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:8
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:10:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 191ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:10:48 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 159ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:10:48 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 181ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:46)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:46
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:02 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 171ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:04 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 172ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:05 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 184ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:05 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 163ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:05 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 184ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1397382895656711937_70255507752680'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:17 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 211ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__997180979389542181_70226244813240'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:18 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 173ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__997180979389542181_70226244813240'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:18 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 189ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__997180979389542181_70226244813240'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:19 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 187ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__997180979389542181_70226244813240'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:19 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 191ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__997180979389542181_70226244813240'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (36.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:11:21 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 175ms
+
+ActionView::Template::Error (Undefined variable: "$gray-light".
+  (in /Users/chengfei/Desktop/ZWWorkSapce/Ruby/toy_app/app/assets/stylesheets/custom.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/assets/stylesheets/custom.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__997180979389542181_70226244813240'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:13:28 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 333ms (Views: 332.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:29 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:13:31 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:50 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:14:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:55 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:57 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:58 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:14:58 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:15:13 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:15:14 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:15:15 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:15:15 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:15:15 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:15:17 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:15:20 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:16:18 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:16:20 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2017-07-26 15:16:21 +0800
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2017-07-26 15:16:23 +0800
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2017-07-26 15:16:25 +0800
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:16:26 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2017-07-26 15:16:30 +0800
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:16:30 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:20:37 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2017-07-26 15:20:38 +0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-07-26 15:20:41 +0800
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:20:51 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:24:29 +0800
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-07-26 15:24:30 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (18.4ms)
+  Rendered users/new.html.erb within layouts/application (20.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 30.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I2sV7pdcCuF68bUcKHlswkoVMmitVM4kbZrDdPk/kuw=", "user"=>{"name"=>"zhouwei", "email"=>"111212121@qq.com"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Wed, 26 Jul 2017 07:25:21 UTC +00:00], ["email", "111212121@qq.com"], ["name", "zhouwei"], ["updated_at", Wed, 26 Jul 2017 07:25:21 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 8ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:25:21 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 15:25:25 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:25:35 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-07-26 15:25:37 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.5ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 15:27:15 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.7ms)
+>>>>>>> filling-in-layout
