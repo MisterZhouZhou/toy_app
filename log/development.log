@@ -6753,3 +6753,845 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:40 +0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:40 +0800
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (15.3ms)
+  Rendered users/new.html.erb within layouts/application (18.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 70.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:21 +0800
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I2sV7pdcCuF68bUcKHlswkoVMmitVM4kbZrDdPk/kuw=", "user"=>{"name"=>"zhouwei2", "email"=>"111111e232313"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered users/_form.html.erb (2.6ms)
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 16:02:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (58.6ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 16:02:52 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (58.2ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2017-07-26 16:03:13 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.1ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-07-26 16:03:13 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chengfei/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:21 +0800
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-07-26 16:04:36 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.2ms)
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I2sV7pdcCuF68bUcKHlswkoVMmitVM4kbZrDdPk/kuw=", "user"=>{"name"=>"2", "email"=>"2222"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered users/_form.html.erb (2.4ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 16:04:41 +0800
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I2sV7pdcCuF68bUcKHlswkoVMmitVM4kbZrDdPk/kuw=", "user"=>{"name"=>"", "email"=>"2222@qq.com"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered users/_form.html.erb (2.6ms)
+  Rendered users/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 16:35:24 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:05 +0800
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-07-26 16:36:06 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.4ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I2sV7pdcCuF68bUcKHlswkoVMmitVM4kbZrDdPk/kuw=", "user"=>{"name"=>"", "email"=>""}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered users/_form.html.erb (3.5ms)
+  Rendered users/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 16:36:07 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 16:36:41 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToUsersEmail (20170726084515)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170726084515"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordDigestToUsers (20170726084839)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.2ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar(255)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170726084839"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 16:58:33 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 10ms
+
+Gem::LoadError (bcrypt-ruby is not part of the bundle. Add it to your Gemfile.):
+  app/models/user.rb:9:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 17:00:39 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 10ms
+
+Gem::LoadError (bcrypt-ruby is not part of the bundle. Add it to your Gemfile.):
+  app/models/user.rb:9:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 17:00:40 +0800
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+Gem::LoadError (bcrypt-ruby is not part of the bundle. Add it to your Gemfile.):
+  app/models/user.rb:9:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 17:00:41 +0800
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+Gem::LoadError (bcrypt-ruby is not part of the bundle. Add it to your Gemfile.):
+  app/models/user.rb:9:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 17:00:45 +0800
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-07-26 17:00:47 +0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+Gem::LoadError (bcrypt-ruby is not part of the bundle. Add it to your Gemfile.):
+  app/models/user.rb:9:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:17:in `new'
+
+
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-07-26 17:04:51 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (19.1ms)
+  Rendered users/new.html.erb within layouts/application (22.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 91ms (Views: 75.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:52 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 17:04:56 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 17:04:58 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 17:05:01 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-07-26 17:05:05 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.9ms)
+  Rendered users/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
