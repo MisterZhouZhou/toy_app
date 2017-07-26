@@ -6701,3 +6701,55 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.cs
   Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
   Rendered /Users/chengfei/.rvm/gems/ruby-2.2.2@global/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.7ms)
 >>>>>>> filling-in-layout
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 66ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:39 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:40 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-26 15:31:40 +0800
